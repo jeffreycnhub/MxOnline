@@ -8,4 +8,4 @@ from apps.users.models import UserProfile
 class UserProfileAdimn(admin.ModelAdmin):
     pass
 
-admin.site.register(UserProfile,UserAdmin)
+#admin.site.register(UserProfile,UserAdmin)
