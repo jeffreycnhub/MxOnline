@@ -39,7 +39,7 @@ class Teacher(BaseModel):
     org = models.ForeignKey(CourseOrg,on_delete=models.CASCADE,verbose_name="所属机构")
     name = models.CharField(max_length=50,verbose_name=u"教师名")
     work_years = models.IntegerField(default=0,verbose_name="工作年限")
-    work_compang = models.CharField(max_length=50,verbose_name="就职公司")
+    work_company = models.CharField(max_length=50,verbose_name="就职公司")
     work_position=models.CharField(max_length=50,verbose_name="公司职位")
     points=models.CharField(max_length=50,verbose_name="教学特点")
     click_nums=models.IntegerField(default=0,verbose_name="点击数")
